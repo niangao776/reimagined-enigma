@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>专属客服通道</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            padding: 25px;
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .logo {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+            border-radius: 50%;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 28px;
+        }
+        h1 {
+            font-size: 22px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+        .qr-container {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 15px;
+            margin: 0 auto 20px;
+            border: 1px solid #eee;
+            display: inline-block;
+        }
+        .qr-code {
+            width: 230px;
+            height: 300px;
+            display: block;
+        }
+        .save-hint {
+            background: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 30px;
+            margin: 15px auto;
+            font-size: 15px;
+            display: inline-block;
+        }
+        .steps {
+            margin: 25px 0 15px;
+        }
+        .step {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .step-number {
+            background: #3498db;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+        .footer {
+            color: #95a5a6;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="logo"></div>
+        <h1>专属客服通道</h1>
+        <p class="subtitle">扫码添加客服微信，享受一对一服务</p>
+        <div class="qr-container">
+            <!-- 替换为您的二维码URL -->
+            <img src="https://lianjiema-1373011393.cos.ap-nanjing.myqcloud.com/2wm.png" alt="企业微信客服二维码" class="qr-code">
+        </div>
+        <div class="save-hint">长按二维码保存到相册</div>
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <div>长按二维码保存到相册</div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div>打开微信扫一扫功能</div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div>从相册选择二维码</div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div>添加专属客服微信</div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2025 专属客服通道</p>
+            <p>扫码后如遇问题请联系平台客服</p>
+        </div>
+    </div>
+</body>
+</html>
+
